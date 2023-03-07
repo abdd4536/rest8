@@ -1,0 +1,53 @@
+<div class="men">
+        <nav>
+            <ul class="navv">
+                <li> <a href="home.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="book.html">BOOK</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="new.html">NEW</a></li>
+                <li></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+.men{
+    display: flex;
+    justify-content: center;   
+}
+
+.navv{
+    background-color: #0398ff;
+    display: flex;
+    border: 0;
+    border-radius: 25px;}
+
+.navv li{
+    list-style-type: none;}
+
+.navv a{
+    display: inline-block;
+    padding: 15px;
+    margin: 0 25px;
+    text-decoration: none;
+    color: whitesmoke	;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgb(255, 255, 255),0 0 5px rgb(10, 28, 221); 
+    border: 1px;
+    padding: 10px;
+
+}
+   
+.navv a:hover{
+    background-color:#0398ff    ;
+    transform: scale(1.20);
+    text-decoration: none;
+    color: aqua;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    border: 0;
+    border-radius: 25px;
+
+}
